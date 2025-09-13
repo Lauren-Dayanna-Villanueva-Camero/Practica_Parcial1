@@ -1,0 +1,11 @@
+.noticias {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  flex-wrap: wrap; 
+  margin-top: 80px; 
+}
+
+.noticias .card {
+  width: 18rem; 
+}
