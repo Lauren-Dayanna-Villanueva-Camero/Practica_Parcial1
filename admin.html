@@ -6,6 +6,8 @@
     <title>Admin</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/script.js"></script>
+
 </head>
 <body>
   <!-- Encabezado -->
@@ -20,7 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Noticias</a>
+              <a class="nav-link" href="menu_noticias.html">Noticias</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="admin.html">Admin</a>
@@ -53,19 +55,22 @@
 
     <!-- Formulario -->
     <form class="formulario_admin">
-        <h4>Por favor ingrese sus credenciales para acceder al sistema</h4>
+    <h4>Por favor ingrese sus credenciales para acceder al sistema</h4>
+
     <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Usuario</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="usuario" class="form-label">Usuario</label>
+        <input type="email" class="form-control" id="usuario" aria-describedby="emailHelp">
     </div>
+
     <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Clave</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
+        <label for="clave" class="form-label">Clave</label>
+        <input type="password" class="form-control" id="clave">
     </div>
-    <div class = "botones_admin">
-        <button type="submit" class="btn btn-primary">Log in</button>
-        <button type="submit" class="btn btn-primary">Sign Up</button>
-        <button type="submit" class="btn btn-primary">Cancelar</button>
+
+    <div class="botones_admin">
+        <button type="button" id="btnLogin" class="btn btn-secondary">Log in</button>
+        <a href="registro.html"></a><button type="button" id="btnSignup" class="btn btn-secondary">Sign Up</button></a>
+        <a href="menu_noticias.html"><button type="button" id="btnCancel" class="btn btn-secondary" >Cancelar</button></a>
     </div>
     </form>
 
