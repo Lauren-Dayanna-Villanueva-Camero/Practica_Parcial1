@@ -1,3 +1,5 @@
+/* body*/
+
 .noticias {
   display: flex;
   justify-content: center;
@@ -8,4 +10,39 @@
 
 .noticias .card {
   width: 18rem; 
+}
+
+
+/* footer*/
+
+footer{
+    clear: both;
+    padding: 5px;
+    border-top: 5px solid black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    justify-content: center;
+
+}
+
+.contenidofot {
+    color: black;
+    text-align: center; 
+}
+
+.contenidofot a {
+    color: black;
+    text-decoration: none; 
+}
+
+.contenidofot a:hover {
+    text-decoration: underline;
+}
+  
+.contenidofot .row {
+    justify-content: center; 
+}
+
+.contenidofot .col-md-6 {
+    max-width: 40%; 
 }
